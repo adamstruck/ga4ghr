@@ -1,0 +1,37 @@
+Package: ga4ghr
+Title: R Client for GA4GH API
+Version: 0.0.0.9000
+Date: 2015-10-14
+Authors@R: person("Adam", "Struck", email = "strucka@ohsu.edu",
+                  role = c("aut", "cre")
+                 )
+Description: Provides and R package to interact with the GA4GH API. 
+Depends:
+    R (>= 3.2.2),
+    GenomicAlignments (>= 1.0.1),
+    VariantAnnotation
+Imports:
+    Biostrings,
+    GenomeInfoDb,
+    GenomicRanges,
+    IRanges,
+    httr,
+    rjson,
+    Rsamtools,
+    S4Vectors,
+    stringr
+Suggests:
+    BiocStyle,
+    httpuv,
+    knitr,
+    rmarkdown,
+    testthat,
+    ggbio,
+    ggplot2,
+    BSgenome.Hsapiens.UCSC.hg19,
+    org.Hs.eg.db,
+    TxDb.Hsapiens.UCSC.hg19.knownGene
+VignetteBuilder: knitr
+License: Apache License (== 2.0) | file LICENSE
+biocViews: DataImport, ThirdPartyClient
+RoxygenNote: 4.1.1.9001

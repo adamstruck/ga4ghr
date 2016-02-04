@@ -1,0 +1,15 @@
+ga4ghr
+==============================
+
+.. role:: r(code)
+   :language: r
+
+This R client fetches reads and variants data from the `GA4GH API`_
+and provides converters to obtain `BioConductor`_ S4 classes like
+GAlignments, and GRanges and VRanges.
+
+.. _GA4GH API: http://ga4gh.org/#/api/v0.5.1
+.. _BioConductor: http://www.bioconductor.org/
+
+Getting started
+---------------
